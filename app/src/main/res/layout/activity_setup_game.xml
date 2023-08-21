@@ -62,24 +62,25 @@
             android:id="@+id/playerNameEdit"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
             android:ems="10"
             android:inputType="text"
             android:maxLength="24"
             android:text="@string/player"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/playerNameText" />
 
         <TextView
             android:id="@+id/playerNameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/player_name"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerNameEdit"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/playerNameEdit" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/playSingleButton"
@@ -135,48 +136,49 @@
             android:id="@+id/player1NameEdit"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
             android:ems="10"
             android:inputType="text"
             android:maxLength="24"
             android:text="@string/player1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/player1NameText" />
 
         <TextView
             android:id="@+id/player1NameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/player1_name"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/player1NameEdit"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/player1NameEdit" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/player2NameEdit"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="2dp"
             android:ems="10"
             android:inputType="text"
             android:maxLength="24"
             android:text="@string/player2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/player1NameEdit" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player2NameText" />
 
         <TextView
             android:id="@+id/player2NameText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/player2_name"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="@+id/player2NameEdit"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/player2NameEdit" />
+            app:layout_constraintTop_toBottomOf="@+id/player1NameEdit" />
 
         <Button
             android:id="@+id/playMultiButton"

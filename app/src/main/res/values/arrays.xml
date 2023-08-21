@@ -1,0 +1,17 @@
+<resources>
+    <!-- Theme Preference -->
+
+    <string-array name="difficultyEntries">
+        <item>@string/easy</item>
+        <item>@string/medium</item>
+        <item>@string/hard</item>
+        <item>@string/madness</item>
+    </string-array>
+
+    <string-array name="difficultyValues">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+    </string-array>
+</resources>

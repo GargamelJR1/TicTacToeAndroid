@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="game_title">Tic Tac Toe</string>
+    <string name="play_button">Graj</string>
+    <string name="about">Info</string>
+    <string name="player">Gracz</string>
+    <string name="player1">Gracz 1</string>
+    <string name="player2">Gracz 2</string>
+    <string name="playerAI">AI</string>
+    <string name="current_player">Obecny gracz:</string>
+    <string name="your_symbol">Twój symbol:</string>
+    <string name="won">Wygrywa!</string>
+    <string name="draw">Remis</string>
+    <string name="continue_text">Kontynuuj</string>
+    <string name="exit_text">Wyjdź</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Ustawienia</string>
+    <string name="setup_game">Konfiguracja</string>
+    <string name="player_name">Gracz</string>
+    <string name="player1_name">Gracz 1</string>
+    <string name="player2_name">Gracz 2</string>
+    <string name="instruction_single_text">Wpisz nazwę i naciśnij przycisk Graj.</string>
+    <string name="instruction_multi_text">Wpisz nazwy graczy i naciśnij przycisk Graj.</string>
+    <string name="hint_text">W ustawieniach można zmienić poziom trudności SI. Domyślnie wybrany jest średni.</string>
+    <string name="select_game_mode">Wybierz tryb gry</string>
+    <string name="single_player">1 gracz (vs AI)</string>
+    <string name="multi_player">2 graczy</string>
+    <string name="easy">Łatwy</string>
+    <string name="medium">Średni</string>
+    <string name="hard">Trudny</string>
+    <string name="madness">Szaleństwo</string>
+    <string name="difficulty_header">Poziom trudności</string>
+    <string name="set_difficulty">Wybierz poziom trudności</string>
+    <string name="author_text">Autorem gry jest Gargamel JR</string>
+    <string name="about_text1">Gra jest typu open source i jest udostępniana na licencji GPL 3.0</string>
+    <string name="about_text2">Kod źródłowy gry znajduje się w serwisie Github</string>
+    <string name="about_text3">Czcionka użyta w tytule gry to Aldrich; jest ona udostępniana na licencji Open Font License</string>
+    <string name="about_text4">W grze użyte są tylko standardowe zasoby androida</string>
+</resources>

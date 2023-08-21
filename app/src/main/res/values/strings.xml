@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="game_title">Tic Tac Toe</string>
+
+    <!-- Main activity buttons -->
+    <string name="play_button">Play</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- Game strings -->
+    <string name="player">Player</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="playerAI">AI</string>
+    <string name="current_player">Current Player:</string>
+    <string name="your_symbol">Your symbol:</string>
+    <string name="won">Won!</string>
+    <string name="draw">Draw</string>
+    <string name="continue_text">Continue</string>
+    <string name="exit_text">Exit</string>
+
+    <!-- Settings activity -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Game setup strings -->
+    <string name="setup_game">Setup Game</string>
+    <string name="player_name">Player Name</string>
+    <string name="player1_name">Player 1 Name</string>
+    <string name="player2_name">Player 2 Name</string>
+    <string name="instruction_single_text">Enter player name and click play.</string>
+    <string name="instruction_multi_text">Enter players names and click play.</string>
+    <string name="hint_text">In application settings you can set AI difficulty level. Default is medium.</string>
+
+    <!-- Game Mode -->
+    <string name="select_game_mode">Select game mode</string>
+    <string name="single_player">Single Player</string>
+    <string name="multi_player">Multi Player</string>
+
+    <!-- Difficulty strings -->
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="madness">Madness</string>
+
+    <!-- Preference Titles -->
+    <string name="difficulty_header">Difficulty</string>
+
+    <!-- Messages Preferences -->
+    <string name="set_difficulty">Set difficulty level</string>
+
+    <!-- About texts -->
+    <string name="author_text">Game made by Gargamel JR</string>
+    <string name="about_text1">This game is open source and it is shared under GPL 3.0 license</string>
+    <string name="about_text2">You can find the source code on GitHub</string>
+    <string name="about_text3">Font used in game title is Aldrich shared under Open Font License</string>
+    <string name="about_text4">Resources used in the game are standard android resources</string>
+
+</resources>
